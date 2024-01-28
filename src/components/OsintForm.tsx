@@ -65,7 +65,7 @@ export default function OsintForm() {
                     <a href= "/howdoesitwork" className="label-text-alt link link-hover">How does this work?</a>
                 </label>
                 <div className="form-control mt-6">
-                <button type="submit" className="btn btn-primary">Check</button>
+                <a href= {"/results"}><button type="submit" className="btn btn-primary"> Check</button></a>
                 </div>
             </form>
       </div>
