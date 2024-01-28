@@ -12,10 +12,13 @@ export default function Page() {
                         various ways to attack and impersonate individuals without their knowledge. In response to this challenge, we created this
                         website to serve the purpose of developing an innovative tool that can help educate and provide preventative resources for you.
                         This website provides resources to proactively detect potential phishing attempts and open-source intelligence
-                        impersonations. We hope to bring awareness and security in the face of evolving online threats.
-                        Check out the &quot;How Does it Work?&quot; page next.
+                        impersonations.
                     </p>
-                    <p></p>
+                    <h2 className="text-3xl font-bold">Our Goals</h2>
+                    <p className="pt-6 mb-5 text-xl pr-60">
+                        We hope to bring awareness and security in the face of evolving online threats.
+                        Check out the <a href="howdoesitwork">&quot;<u>How Does it Work?</u>&quot;</a> page next.
+                    </p>
                     <div className="images flex justify-between pt-1">
                             <div className="photo">
                                 <div className="w-55 rounded-xl">
