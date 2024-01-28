@@ -1,6 +1,6 @@
 export default function Page() {
     return (
-        <div className="px-14 py-20 h-screen" style={{ backgroundImage: 'url(/temple.svg)' }}>
+        <div className="px-10 pt-20 pb-300 h-screen" style={{ backgroundImage: 'url(/temple.svg)' }}>
         <div className="hero min-h-screen bg-base-200">
             <div className="hero-content flex-col lg:flex-row-reverse px-10">
                 <div>
