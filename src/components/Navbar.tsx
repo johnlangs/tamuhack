@@ -25,8 +25,9 @@ export default function Navbar() {
                     </ul>
                     <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
                     <div className="w-10 rounded-full">
-                            <img alt="Tailwind CSS Navbar component" src="https://p7.hiclipart.com/preview/282/256/961/user-profile-avatar-computer-icons-google-account.jpg" />
+                            <a href="/profile"><img alt="Tailwind CSS Navbar component" src="https://p7.hiclipart.com/preview/282/256/961/user-profile-avatar-computer-icons-google-account.jpg" /></a>
                         </div>
+
                 </div>
                     </div>
 

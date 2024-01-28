@@ -12,9 +12,11 @@ export default function OsintForm() {
     }
 
     return (
+        <div className= "pt-52">
         <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
             <form className="card-body">
                 <div className="form-control">
+                <h1 className="mb-8 text-3xl font-bold">Enter your information for an anonymous privacy check. </h1>
                 <label className="label">
                     <span className= "font-bold label-text">Email</span>
                 </label>
@@ -49,5 +51,7 @@ export default function OsintForm() {
                 </div>
             </form>
       </div>
+      </div>
     );
+
 }
