@@ -12,7 +12,7 @@ export default function Navbar() {
                     </ul>
                 </div>
             </div>
-            <div className="navbar-center flex items-center justify">
+            <div className="navbar-center flex justify-center">
                 <a href="/" className="btn btn-ghost text-xl ">Home</a>
             </div>
             <div className="navbar-end flex-none gap-2">
