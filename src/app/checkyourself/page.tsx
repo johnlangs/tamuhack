@@ -1,9 +1,9 @@
-import LoginCard from "@/components/LoginCard";
+import OsintForm from "@/components/OsintForm";
 
 export default function Page() {
     return (
         <main className="flex items-center justify-center h-screen">
-            <LoginCard/>
+            <OsintForm/>
         </main>
     );
 }

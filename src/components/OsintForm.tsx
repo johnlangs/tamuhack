@@ -1,4 +1,4 @@
-export default function LoginCard() {
+export default function OsintForm() {
     return (
         <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
             <form className="card-body">
@@ -10,18 +10,24 @@ export default function LoginCard() {
                 </div>
                 <div className="form-control">
                 <label className="label">
-                    <span className="label-text">Password</span>
+                    <span className="label-text">Phone Number</span>
                 </label>
-                <input name="password" type="password" placeholder="password" className="input input-bordered" required />
+                <input name="phome_number" type="text" placeholder="1234567890" className="input input-bordered" required />
                 <label className="label">
-                    <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
+                    <a href="#" className="label-text-alt link link-hover">How does this work?</a>
                 </label>
+                </div>
+                <div className="form-control">
                 <label className="label">
-                    <a href="#" className="label-text-alt link link-hover">New User? Create an Account Here!</a> 
+                    <span className="label-text">Address</span>
+                </label>
+                <input name="address" type="text" placeholder="Address" className="input input-bordered" required />
+                <label className="label">
+                    <a href="#" className="label-text-alt link link-hover">How does this work?</a>
                 </label>
                 </div>
                 <div className="form-control mt-6">
-                <button type="submit" className="btn btn-primary">Login</button>
+                <button type="submit" className="btn btn-primary">Check</button>
                 </div>
             </form>
       </div>
