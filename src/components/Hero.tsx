@@ -9,7 +9,7 @@ export default function Hero() {
                     <h1 className="mb-5 text-5xl font-bold">Your Privacy Starts Here.</h1>
                     <p className="mb-5">Your Privacy Starts Here.</p>
                     <a href = "/login" >< button className="btn btn-primary">Get Started</button> </a>
-                </div>
+                </div> 
             </div>
       </div>
     );
