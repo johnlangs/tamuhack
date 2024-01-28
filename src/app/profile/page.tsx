@@ -11,37 +11,37 @@ export default function Page() {
                 <form className="card-body">
                     <div className="form-control">
                     <label className="label">
-                        <span className="label-text text-2xl">Email</span>
+                        <span className="label-text text-xl font-bold">Email</span>
                     </label>
                     <input type="email" placeholder="Email Address" className="input input-bordered" required />
                     </div>
                     <div className="form-control">
                     <label className="label">
-                        <span className="label-text text-2xl">Phone Number</span>
+                        <span className="label-text text-xl font-bold">Phone Number</span>
                     </label>
                     <input type="password" placeholder="Phone Number" className="input input-bordered" required />
                     </div>
                     <div className="form-control">
                     <label className="label">
-                        <span className="label-text text-2xl">Address</span>
+                        <span className="label-text text-xl font-bold">Address</span>
                     </label>
                     <input type="password" placeholder="  " className="input input-bordered" required />
                     </div>
                     <div className="form-control">
                     <label className="label">
-                        <span className="label-text text-2xl">Birthday</span>
+                        <span className="label-text text-xl font-bold">Birthday</span>
                     </label>
                     <input type="password" placeholder="mm-dd-yyyy" className="input input-bordered" required />
                     </div>
                     <div className="form-control">
                     <label className="label">
-                        <span className="label-text text-2xl">SSN</span>
+                        <span className="label-text text-xl font-bold">SSN</span>
                     </label>
                     <input type="password" placeholder="xxx-xx-xxxx" className="input input-bordered" required />
                     </div>
                     <div className="form-control">
                     <label className="label">
-                        <span className="label-text text-2xl">Instagram</span>
+                        <span className="label-text text-xl font-bold">Instagram</span>
                     </label>
                     <input type="password" placeholder="@Handle" className="input input-bordered" required />
                     </div>
