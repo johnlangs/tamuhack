@@ -1,12 +1,11 @@
 export default function Page() {
     return (
-        <div className="px-14 py-20 pb-100h-screen" style = {{backgroundImage: 'url(/temple.svg)'}}>
-
-            <div className="hero min-h-screen bg-base-200">
-            <div className="hero-content flex-col lg:flex-row-reverse px-10">
-                <div>
-      <h1 className="text-5xl font-bold">About This Site</h1>
-      <p className="py-6 mb-5 text-xl pr-60 pb-40"> The extensive distribution of personally identifiable information includes 
+        <main className="p-10 h-screen">
+            <div className="flex items-center justify-center">
+                <h1 className="mb-100 text-5xl font-bold py={100}">ALL YOU NEED TO KNOW</h1>
+            </div>
+            <div className="flex items-center justify-center px-5000 pt-5">
+                <p className="mb-5 text-xl"> The extensive distribution of personally identifiable information includes 
                 birthdays, interests, family, connections, and professional roles, across multiple social media platforms 
                 and the internet. This information has provided a ground for threat actors to fertilize and orchestrate
                 various ways to attack and impersonate individuals without their knowledge. In response to this challenge, this 
@@ -16,8 +15,6 @@ export default function Page() {
                 This website aims to boost user awareness and security in the face of evolving online threats. 
                 </p>
     </div>
-  </div>
-</div>
-</div>
+    </main>
     );
 }
