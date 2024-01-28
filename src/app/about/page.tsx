@@ -6,7 +6,7 @@ export default function Page() {
             <div className="hero-content flex-col lg:flex-row-reverse px-10">
                 <div>
       <h1 className="text-5xl font-bold">About This Site</h1>
-      <p className="py-6 mb-5 text-xl pr-60 pb-40"> The internet has an extensive distribution of personally identifiable information 
+      <p className="pt-6 mb-5 text-xl pr-60 "> The internet has an extensive distribution of personally identifiable information 
                 including birthdays, peronal interests, family, connections, professional roles, and much more across multiple platforms 
                 and regions you might not know exist. These vulnerable information provides a ground for threats to fertilize, orchestrating
                 various ways to attack and impersonate individuals without their knowledge. In response to this challenge, we created this 
@@ -19,26 +19,24 @@ export default function Page() {
   </div>
 </div>
 
-<div className="carousel carousel-center rounded-box">
-  <div className="carousel-item">
-    <img src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg" alt="Pizza" />
-  </div> 
-  <div className="carousel-item">
-    <img src="https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg" alt="Pizza" />
-  </div> 
-  <div className="carousel-item">
-    <img src="https://daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg" alt="Pizza" />
-  </div> 
-  <div className="carousel-item">
-    <img src="https://daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg" alt="Pizza" />
-  </div> 
-  <div className="carousel-item">
-    <img src="https://daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg" alt="Pizza" />
-  </div> 
-  <div className="carousel-item">
-    <img src="https://daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg" alt="Pizza" />
-  </div> 
-</div>
+<body>
+<div className="images">
+    <div className="photo">
+    <div className="w-35 rounded-xl">
+        <img src="https://exactitconsulting.com/wp-content/uploads/2017/12/Exact-IT-Security-Comes-In-Two-Parts-Don%E2%80%99t-Neglect-The-Physical-Half-256x256.jpg" alt="photo"/>
+    </div>
+    </div>
+    <div className="photo">
+    <div className="w-35 rounded-xl">
+        <img src="https://exactitconsulting.com/wp-content/uploads/2017/08/Exact-IT-Are-You-Prepared-For-Incoming-Threats-To-Your-Systems-Category-Security-256x256.jpg" alt="photo"/>
+    </div>
+    </div>
+    <div className="photo">
+    <div className="w-35 rounded-xl">
+        <img src="https://i0.wp.com/securityaffairs.co/wordpress/wp-content/uploads/2012/01/KeyCard.gif?resize=256%2C256" alt="photo"/>
+    </div>
+</div> 
+</div> </body>
 </div>
     );
 }
