@@ -6,14 +6,13 @@ export default function Page() {
             <div className="hero-content flex-col lg:flex-row-reverse px-10">
                 <div>
       <h1 className="text-5xl font-bold">About This Site</h1>
-      <p className="py-6 mb-5 text-xl pr-60 pb-40"> The extensive distribution of personally identifiable information includes 
-                birthdays, interests, family, connections, and professional roles, across multiple social media platforms 
-                and the internet. This information has provided a ground for threat actors to fertilize and orchestrate
-                various ways to attack and impersonate individuals without their knowledge. In response to this challenge, this 
-                website is created to serve the purpose of developing an innovative application, methodology, or tool. 
-                The primary objective is to proactively detect potential phishing attempts and guide users to explore 
-                their options for open-source intelligence that could be employed for impersonation purposes.
-                This website aims to boost user awareness and security in the face of evolving online threats. 
+      <p className="py-6 mb-5 text-xl pr-60 pb-40"> The internet has an extensive distribution of personally identifiable information 
+                including birthdays, peronal interests, family, connections, professional roles, and much more across multiple platforms 
+                and regions you might not know exist. These vulnerable information provides a ground for threats to fertilize, orchestrating
+                various ways to attack and impersonate individuals without their knowledge. In response to this challenge, we created this 
+                website to serve the purpose of developing an innovative tool that can help educate and provide preventative resources for you. 
+                This website provides resources to proactively detect potential phishing attempts and open-source intelligence 
+                impersonations. We hope to bring awareness and security in the face of evolving online threats. 
                 </p>
     </div>
   </div>
