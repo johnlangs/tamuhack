@@ -24,6 +24,15 @@ export default function OsintForm() {
                 </div>
                 <div className="form-control">
                 <label className="label">
+                    <span className="font-bold label-text">Password</span>
+                </label>
+                <input name="password" type="password" placeholder="Password" className="input input-bordered" onChange={checkPassword}/>
+                <label className="label">
+                {passStr == 0 ? <p className="text-red-600">Password Too Weak</p> : passStr == 1 ? <p className='text-orange-600'>Weak Password</p> : passStr == 2 ? <p className='text-yellow-300'>Medium Password</p> : passStr == 3 ? <p className='text-lime-500'>Strong Password</p> : <></>}
+                </label>
+                </div>
+                <div className="form-control">
+                <label className="label">
                     <span className="font-bold label-text">Phone Number</span>
                 </label>
                 <input name="phome_number" type="text" placeholder="123-456-7890" className="input input-bordered" />
@@ -36,18 +45,21 @@ export default function OsintForm() {
                 </div>
                 <div className="form-control">
                 <label className="label">
-                    <span className="font-bold label-text">Phone Number</span>
+                    <span className="font-bold label-text">Birthday</span>
                 </label>
-                <input name="phome_number" type="text" placeholder="123-456-7890" className="input input-bordered" />
+                <input name="phome_number" type="text" placeholder="mm-dd-yyy" className="input input-bordered" />
                 </div>
                 <div className="form-control">
                 <label className="label">
-                    <span className="font-bold label-text">Password</span>
+                    <span className="font-bold label-text">SSN</span>
                 </label>
-                <input name="password" type="password" placeholder="Password" className="input input-bordered" onChange={checkPassword}/>
+                <input name="address" type="text" placeholder="xxx-xx-xxxx" className="input input-bordered" />
+                </div>
+                <div className="form-control">
                 <label className="label">
-                {passStr == 0 ? <p className="text-red-600">Password Too Weak</p> : passStr == 1 ? <p className='text-orange-600'>Weak Password</p> : passStr == 2 ? <p className='text-yellow-300'>Medium Password</p> : passStr == 3 ? <p className='text-lime-500'>Strong Password</p> : <></>}
+                    <span className="font-bold label-text">Instagram</span>
                 </label>
+                <input name="address" type="text" placeholder="@Handle" className="input input-bordered" />
                 </div>
                 <label className="label">
                     <a href= "/howdoesitwork" className="label-text-alt link link-hover">How does this work?</a>
