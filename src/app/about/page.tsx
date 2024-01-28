@@ -1,7 +1,7 @@
 export default function Page() {
     return (
-        <div className="px-30 pt-20 pb-30 h-screen" style={{ backgroundImage: 'url(/temple.svg)' }}>
-        <div className="hero min-h-screen bg-base-100">
+        <div className="px-30 pt-20 pb-30 pl-20 pr-20 h-screen" style={{ backgroundImage: 'url(/temple.svg)' }}>
+        <div className="hero h-[85vh] bg-base-100">
             <div className="hero-content flex-col lg:flex-row-reverse px-10">
                 <div>
                     <h1 className="text-5xl font-bold">About This Site</h1>
@@ -12,10 +12,13 @@ export default function Page() {
                         various ways to attack and impersonate individuals without their knowledge. In response to this challenge, we created this
                         website to serve the purpose of developing an innovative tool that can help educate and provide preventative resources for you.
                         This website provides resources to proactively detect potential phishing attempts and open-source intelligence
-                        impersonations. We hope to bring awareness and security in the face of evolving online threats.
-                        Check out the &quot;How Does it Work?&quot; page next.
+                        impersonations.
                     </p>
-                    <p></p>
+                    <h2 className="text-3xl font-bold">Our Goals</h2>
+                    <p className="pt-6 mb-5 text-xl pr-60">
+                        We hope to bring awareness and security in the face of evolving online threats.
+                        Check out the <a href="howdoesitwork">&quot;<u>How Does it Work?</u>&quot;</a> page next.
+                    </p>
                     <div className="images flex justify-between pt-1">
                             <div className="photo">
                                 <div className="w-55 rounded-xl">
@@ -28,7 +31,7 @@ export default function Page() {
                             <div className="photo">
                                 <div className="w-55 rounded-xl">
                                     <img
-                                        src="https://exactitconsulting.com/wp-content/uploads/2017/08/Exact-IT-Are-You-Prepared-For-Incoming-Threats-To-Your-Systems-Category-Security-256x256.jpg"
+                                        src="https://i0.wp.com/securityaffairs.co/wordpress/wp-content/uploads/2012/01/KeyCard.gif?resize=256%2C256"
                                         alt="photo"
                                     />
                                 </div>
@@ -37,7 +40,8 @@ export default function Page() {
                             <div className="photo">
                                 <div className="w-55 rounded-xl">
                                     <img
-                                        src="https://i0.wp.com/securityaffairs.co/wordpress/wp-content/uploads/2012/01/KeyCard.gif?resize=256%2C256"
+                                        
+                                        src="https://exactitconsulting.com/wp-content/uploads/2017/08/Exact-IT-Are-You-Prepared-For-Incoming-Threats-To-Your-Systems-Category-Security-256x256.jpg"
                                         alt="photo"
                                     />
                                 </div>
