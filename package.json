@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
+    "check-password-strength": "^2.0.7",
     "next": "14.1.0",
     "next-auth": "^4.24.5",
     "react": "^18",
