@@ -1,7 +1,7 @@
 export default function Page() {
     return (
-        <div className="px-30 pt-20 pb-30 h-screen" style={{ backgroundImage: 'url(/temple.svg)' }}>
-        <div className="hero min-h-screen bg-base-100">
+        <div className="px-30 pt-20 pb-30 pl-20 pr-20 h-screen" style={{ backgroundImage: 'url(/temple.svg)' }}>
+        <div className="hero h-[85vh] bg-base-100">
             <div className="hero-content flex-col lg:flex-row-reverse px-10">
                 <div>
                     <h1 className="text-5xl font-bold">About This Site</h1>
@@ -28,7 +28,7 @@ export default function Page() {
                             <div className="photo">
                                 <div className="w-55 rounded-xl">
                                     <img
-                                        src="https://exactitconsulting.com/wp-content/uploads/2017/08/Exact-IT-Are-You-Prepared-For-Incoming-Threats-To-Your-Systems-Category-Security-256x256.jpg"
+                                        src="https://i0.wp.com/securityaffairs.co/wordpress/wp-content/uploads/2012/01/KeyCard.gif?resize=256%2C256"
                                         alt="photo"
                                     />
                                 </div>
@@ -37,7 +37,8 @@ export default function Page() {
                             <div className="photo">
                                 <div className="w-55 rounded-xl">
                                     <img
-                                        src="https://i0.wp.com/securityaffairs.co/wordpress/wp-content/uploads/2012/01/KeyCard.gif?resize=256%2C256"
+                                        
+                                        src="https://exactitconsulting.com/wp-content/uploads/2017/08/Exact-IT-Are-You-Prepared-For-Incoming-Threats-To-Your-Systems-Category-Security-256x256.jpg"
                                         alt="photo"
                                     />
                                 </div>
