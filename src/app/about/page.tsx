@@ -15,8 +15,6 @@ export default function Page() {
                 This website aims to boost user awareness and security in the face of evolving online threats. 
                 </p>
     </div>
-  </div>
-</div>
-</div>
+    </main>
     );
 }
