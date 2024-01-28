@@ -19,13 +19,25 @@ export default function Page() {
 {/* <div className="flex items-center justify-center h-screen">
             <div className="avatar justify-center g-10">
                 <div>
-                    <div className="w-20 rounded-full">
-                        <img src="https://p7.hiclipart.com/preview/282/256/961/user-profile-avatar-computer-icons-google-account.jpg" />
-                    </div>
-                </div>
-                <div className="mb-5 flex text-400">
-                        <p>Last </p>
+                <h1 className="text-3xl font-bold">Profile</h1>
+                <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+                    <form className="card-body">
+                        <div className="form-control">
+                        <label className="label">
+                            <span className="label-text">Your name</span>
+                        </label>
+                        <input type="email" placeholder="name" className="input input-bordered" required />
+                        </div>
+                        <div className="form-control">
+                        <label className="label">
+                            <span className="label-text">Email</span>
+                        </label>
+                        <input type="password" placeholder="email" className="input input-bordered" required />
+                        </div>
+                    </form>
                 </div>
             </div>
             
-        </div> */}
+        </div>
+    );
+}
