@@ -29,9 +29,9 @@ export default function Page() {
                     </div>
                     <div className="form-control">
                     <label className="label">
-                        <span className="label-text text-2xl">Bio</span>
+                        <span className="label-text text-2xl">Signature</span>
                     </label>
-                    <input type="password" placeholder="email" className="input input-bordered" required />
+                    <input type="password" placeholder="leave your mark" className="input input-bordered" required />
                     </div>
                 </form>
             </div>
