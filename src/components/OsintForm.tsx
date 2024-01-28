@@ -12,7 +12,7 @@ export default function OsintForm() {
     }
 
     return (
-        <div className= "pt-52">
+        <div className= "pt-80">
         <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
             <form className="card-body">
                 <div className="form-control">
@@ -47,7 +47,7 @@ export default function OsintForm() {
                 <label className="label">
                     <span className="font-bold label-text">Birthday</span>
                 </label>
-                <input name="phome_number" type="text" placeholder="mm-dd-yyy" className="input input-bordered" />
+                <input name="phome_number" type="text" placeholder="mm-dd-yyyy" className="input input-bordered" />
                 </div>
                 <div className="form-control">
                 <label className="label">
@@ -65,7 +65,7 @@ export default function OsintForm() {
                     <a href= "/howdoesitwork" className="label-text-alt link link-hover">How does this work?</a>
                 </label>
                 <div className="form-control mt-6">
-                <button type="submit" className="btn btn-primary">Check</button>
+                <a href= {"/results"}><button type="submit" className="btn btn-primary"> Check</button></a>
                 </div>
             </form>
       </div>
