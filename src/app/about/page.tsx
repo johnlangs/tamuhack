@@ -4,8 +4,10 @@ export default function Page() {
             <div className="flex items-center justify-center">
                 <h1 className="mb-100 text-5xl font-bold py={100}">ALL YOU NEED TO KNOW</h1>
             </div>
-            <div className="flex items-center justify-center p-10">
-                <p className="mb-10 text-25"> This website is designed for people to have </p>
+            <div className="flex items-center justify-center p-5">
+                <p className="mb-5 text-200"> With the modern technology moving on the widespread dissemination of personal identification information such as
+                birthdays, personal hobbies, family connections, occupation, and so on. 
+                </p>
             </div>
         </main>
     );
