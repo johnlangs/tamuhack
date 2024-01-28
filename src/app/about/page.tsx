@@ -1,8 +1,8 @@
 export default function Page() {
     return (
         <main className="p-10 h-screen">
-            <div className="flex items-center justify-center">
-                <h1 className="mb-100 text-5xl font-bold py={100}">ALL YOU NEED TO KNOW</h1>
+            <div className="flex items-center justify-center font-georgia">
+                <h1 className="mb-100 text-5xl font-bold py={100} ">ALL YOU NEED TO KNOW</h1>
             </div>
             <div className="flex items-center justify-center px-5000 pt-5">
                 <p className="mb-5 text-xl"> The extensive distribution of personally identifiable information includes 
