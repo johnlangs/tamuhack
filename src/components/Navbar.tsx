@@ -12,10 +12,10 @@ export default function Navbar() {
                     </ul>
                 </div>
             </div>
-            <div className="flex-1">
-                <a href="/" className="btn btn-ghost text-xl">Home</a>
+            <div className="navbar-center flex items-center justify">
+                <a href="/" className="btn btn-ghost text-xl ">Home</a>
             </div>
-            <div className="flex-none gap-2">
+            <div className="navbar-end flex-none gap-2">
                 <div className="dropdown dropdown-end">
                 <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
                     <div className="w-10 rounded-full">
