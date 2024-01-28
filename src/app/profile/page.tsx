@@ -1,6 +1,6 @@
 export default function Page() {
     return (
-        <div className="hero min-h-screen bg-base-200 p-100">
+        <div className="hero min-h-screen bg-base-200 p-100" style={{backgroundImage: 'url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/blurred-gray-background-brandon-bourdages.jpg)'}}>
             <div className="hero-content flex-col lg:flex-row">
                 <img src="https://www.shutterstock.com/image-vector/default-avatar-profile-icon-social-600nw-1677509740.jpg" className="max-w-sm rounded-lg shadow-2xl" />
             <div className="p-10000"></div>
