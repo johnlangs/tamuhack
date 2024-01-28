@@ -12,10 +12,7 @@ export default function OsintForm() {
                 <label className="label">
                     <span className="label-text">Phone Number</span>
                 </label>
-                <input name="phome_number" type="text" placeholder="1234567890" className="input input-bordered" required />
-                <label className="label">
-                    <a href="#" className="label-text-alt link link-hover">How does this work?</a>
-                </label>
+                <input name="phome_number" type="text" placeholder="123-456-7890" className="input input-bordered" required />
                 </div>
                 <div className="form-control">
                 <label className="label">
@@ -23,7 +20,7 @@ export default function OsintForm() {
                 </label>
                 <input name="address" type="text" placeholder="Address" className="input input-bordered" required />
                 <label className="label">
-                    <a href="#" className="label-text-alt link link-hover">How does this work?</a>
+                    <a href= "/howdoesitwork" className="label-text-alt link link-hover">How does this work?</a>
                 </label>
                 </div>
                 <div className="form-control mt-6">
