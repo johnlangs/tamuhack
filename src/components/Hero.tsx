@@ -1,3 +1,5 @@
+import { redirect } from "next/navigation";
+
 export default function Hero() {
     return (
         <div className="hero min-h-screen" style={{backgroundImage: 'url(/temple.svg)'}}>

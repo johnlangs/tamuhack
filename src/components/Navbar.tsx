@@ -7,7 +7,7 @@ export default function Navbar() {
                 </button>
             </div>
             <div className="flex-1">
-                <a href="/" className="btn btn-ghost text-xl">app</a>
+                <a href="/" className="btn btn-ghost text-xl">Home</a>
             </div>
             <div className="flex-none gap-2">
                 <div className="dropdown dropdown-end">
