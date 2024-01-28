@@ -36,6 +36,12 @@ export default function OsintForm() {
                 </div>
                 <div className="form-control">
                 <label className="label">
+                    <span className="font-bold label-text">Phone Number</span>
+                </label>
+                <input name="phome_number" type="text" placeholder="123-456-7890" className="input input-bordered" />
+                </div>
+                <div className="form-control">
+                <label className="label">
                     <span className="font-bold label-text">Password</span>
                 </label>
                 <input name="password" type="password" placeholder="Password" className="input input-bordered" onChange={checkPassword}/>
