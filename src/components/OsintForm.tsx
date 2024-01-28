@@ -47,7 +47,7 @@ export default function OsintForm() {
                 <label className="label">
                     <span className="font-bold label-text">Birthday</span>
                 </label>
-                <input name="phome_number" type="text" placeholder="mm-dd-yyyy" className="input input-bordered" />
+                <input name="phone_number" type="text" placeholder="mm-dd-yyyy" className="input input-bordered" />
                 </div>
                 <div className="form-control">
                 <label className="label">
