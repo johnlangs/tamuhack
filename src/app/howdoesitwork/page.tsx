@@ -4,7 +4,7 @@ export default function Page() {
             <div className="hero-overlay bg-opacity-65"></div>
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-md mb-80">
-                    <h1 className="mb-8 text-4xl font-bold pb-10">How Does it Work? </h1>
+                    <h1 className="mb-8 text-5xl font-bold pb-10">How Does it Work? </h1>
                     <p className="mb-6"> type type type </p>
                 </div>
             </div>
