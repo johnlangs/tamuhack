@@ -13,7 +13,7 @@ export default function Page() {
                         website to serve the purpose of developing an innovative tool that can help educate and provide preventative resources for you.
                         This website provides resources to proactively detect potential phishing attempts and open-source intelligence
                         impersonations. We hope to bring awareness and security in the face of evolving online threats.
-                        Check out the "How Does it Work?" page next.
+                        Check out the &quot;How Does it Work?&quot; page next.
                     </p>
                     <p>
                         <div className="images flex justify-between pt-1">
